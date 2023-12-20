@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&display=swap');
+
+@media screen and (max-width: 529px) {
+    menu {
+        display: none;
+    }
+
+    menu ul {
+        padding-top: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 529px) {
+
+    i#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: #1f1f1f;
+}
+
+header {
+    background-color: #000000c4;
+    padding: 1.5rem 0;
+    display: flex;
+    width: 100dvw;
+    position: fixed;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.gradient {
+    background-image: linear-gradient(to right, rgb(99,33,191), rgb(191,33,171));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+
+header > h1 {
+    font-size: 2rem;
+    padding: 0 1rem;
+    color: #F2F2F2;
+}
+
+strong {
+    color: #6321BF;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+strong#pedro:hover {
+    font-size: 4.5rem;
+}
+
+
+ul {
+    display: flex;
+    padding: 0 1.5rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+   
+    font-weight: bold;
+    color: #F2F2F2;
+}
+
+li:hover {
+    color: #cecece;
+    cursor: pointer;
+}
+
+li#nav-projetos {
+    padding: 7px 10px;
+    background: #6321bf;
+    background: linear-gradient(0deg, rgba(99,33,191,1) 50%, rgba(191,33,171,1) 100%);
+    border-radius: 5px;
+    color: #F2F2F2;
+    transition: background-color 0.5s ease;
+}
+
+li#nav-projetos:hover {
+    background: rgba(191,33,171,1);
+    background: linear-gradient(0deg, rgba(191,33,171,1) 50%, rgba(99,33,191,1) 100%);
+}
+
+i#burguer {
+    font-size: 1.5rem;
+}
+
+main {
+    padding-top: 33.3dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 2.5rem;
+    width: 100%;
+    
+}
+
+#principal > h1, h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #F2F2F2;
+}
+
+#contato {
+    padding-top: 3rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#sobre {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.1rem;
+    color: #dddddd;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+    max-width: 350px;
+    padding: 1rem;
+}
+
+#texto-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    margin: 0;
+    padding: 0;
+    color: #9099A2;
+}
+
+#projetos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #525252;
+    padding-top: 5rem;
+    margin: 0;
+    margin-bottom: 50px;
+    opacity: 0;
+    transition: opacity 0.9s ease-in-out;
+}
+
+#projetos.mostrar {
+    opacity: 1;
+}
+
+h3 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+}
+
+.cards {
+    flex-direction: column;
+    max-width: 300px;
+    padding: 25px 15px 15px 15px;
+    border: 1px solid rgba(194, 194, 194, 0.404);
+    border-radius: 10px;
+}
+
+.cardlink {
+    color: #9acd32;
+    text-decoration: none;
+}
