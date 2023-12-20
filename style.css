@@ -175,6 +175,7 @@ h1 {
 }
 
 #projetos {
+    background-color: #000000c4;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
