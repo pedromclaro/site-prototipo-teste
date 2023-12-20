@@ -17,8 +17,11 @@ function clickMenu(){
 document.addEventListener('scroll', function () {
     var altura = window.innerHeight;
     var distancia = document.querySelector('#projetos').getBoundingClientRect().top;
-
-    if (distancia <= altura * 0.6) {
+  
+    if (distancia <= altura * 0.4) {
       document.querySelector('#projetos').classList.add('mostrar');
+    } else {
+      document.querySelector('#projetos').classList.remove('mostrar');
     }
   });
+  

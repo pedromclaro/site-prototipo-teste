@@ -23,6 +23,21 @@
 }
 
 * {
+    scrollbar-width: thin;
+    scrollbar-color: #6321bf #823de2;
+  }
+
+*::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: #6321bf;
+    background: linear-gradient(0deg, rgba(99,33,191,1) 50%, rgba(191,33,171,1) 100%);
+    border-radius: 20px;
+  }
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Red Hat Display', sans-serif;
