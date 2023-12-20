@@ -111,6 +111,12 @@ i#burguer {
     font-size: 1.5rem;
 }
 
+i#burguer:hover {
+    background-image: linear-gradient(to right, rgb(99,33,191), rgb(191,33,171));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 main {
     padding-top: 33.3dvh;
     width: 100%;
