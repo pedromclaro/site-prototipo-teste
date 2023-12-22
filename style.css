@@ -76,14 +76,17 @@ header > h1 {
 
 strong {
     color: #6321BF;
-    transition: 0.5s ease;
     cursor: pointer;
+    transition: 0.5s ease;
+}
+
+strong#pedro {
+    font-size: 3rem;
 }
 
 strong#pedro:hover {
-    font-size: 4.5rem;
+    font-size: 4rem;
 }
-
 
 ul {
     display: flex;
@@ -160,7 +163,7 @@ main {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #F2F2F2;
 }
 
