@@ -1,26 +1,15 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: var(--main-font);
-}
-
-:root {
-    --main-font: "Atkinson Hyperlegible", sans-serif;
-
-    /* Catppuccin Theme: 🌿 Mocha */
-    --background-color: #1e1e2e;
-    --text-color: #cdd6f4;
-    --subtext-color: #bac2de;
-    --highlight-color0: #cba6f7;
-    --highlight-color1: #f2cdcd;
+    font-family: "Heebo", sans-serif;
 }
 
 body {
-    background-color: var(--background-color);
-}
+    background-color: #fff;
+} 
 
 #principal {
     display: flex;
@@ -34,9 +23,8 @@ body {
     margin-bottom: 100px;
 }
 
-#principal > h1,
-h2 {
-    font-family: "Heebo", sans-serif;
+#principal > h1, h2 {
+    font-family: 'Heebo', sans-serif;
     text-align: center;
 }
 
@@ -72,6 +60,7 @@ button {
     margin-top: 20px;
     border-radius: 5px;
 }
+
 
 #principal #img-links {
     display: flex;
@@ -148,7 +137,7 @@ i.posts-tag-1 {
     margin-right: 5px;
     font-style: normal;
     padding: 3px 5px;
-    background-color: #d4b1f4;
+    background-color: #D4B1F4;
     border-radius: 10px;
     user-select: none;
 }
@@ -160,6 +149,7 @@ i.posts-tag-2 {
     background-color: #f3f4b1;
     border-radius: 10px;
     user-select: none;
+
 }
 
 i.posts-tag-3 {
@@ -173,4 +163,5 @@ i.posts-tag-3 {
 
 .recent .posts .post-item p {
     max-width: 400px;
+
 }
