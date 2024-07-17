@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap");
 
 * {
     margin: 0;
@@ -9,7 +9,7 @@
 
 body {
     background-color: #fff;
-} 
+}
 
 #principal {
     display: flex;
@@ -23,8 +23,9 @@ body {
     margin-bottom: 100px;
 }
 
-#principal > h1, h2 {
-    font-family: 'Heebo', sans-serif;
+#principal > h1,
+h2 {
+    font-family: "Heebo", sans-serif;
     text-align: center;
 }
 
@@ -61,7 +62,6 @@ button {
     border-radius: 5px;
 }
 
-
 #principal #img-links {
     display: flex;
     flex-direction: column;
@@ -82,7 +82,18 @@ button {
 .recent {
     background-color: #dbedf2;
     padding: 3rem 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.recent .recent-alert {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/*
 
 .recent .header {
     display: flex;
@@ -137,7 +148,7 @@ i.posts-tag-1 {
     margin-right: 5px;
     font-style: normal;
     padding: 3px 5px;
-    background-color: #D4B1F4;
+    background-color: #d4b1f4;
     border-radius: 10px;
     user-select: none;
 }
@@ -149,7 +160,6 @@ i.posts-tag-2 {
     background-color: #f3f4b1;
     border-radius: 10px;
     user-select: none;
-
 }
 
 i.posts-tag-3 {
@@ -163,5 +173,5 @@ i.posts-tag-3 {
 
 .recent .posts .post-item p {
     max-width: 400px;
-
 }
+*/
