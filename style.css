@@ -1,14 +1,40 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
 
 * {
     margin: 0;
     padding: 0;
-    font-family: "Heebo", sans-serif;
+    font-family: "SF Pro Display", sans-serif;
 }
 
 body {
     background-color: #fff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background-color: hsla(0, 0%, 96%, 0.945);
+    padding: 0.8rem;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #333333;
 }
 
 #principal {
@@ -57,8 +83,8 @@ strong#pedro {
 }
 
 button {
-    font-size: 0.9rem;
-    padding: 8px 15px;
+    font-size: 1rem;
+    padding: 10px 25px;
     border: none;
     background-color: #000;
     color: #fff;
@@ -93,6 +119,7 @@ button {
 }
 
 .about .about-text {
+    font-size: 1.1rem;
     padding: 2rem 4rem;
     background-color: #fff;
     max-width: 400px;
