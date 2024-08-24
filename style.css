@@ -17,7 +17,7 @@ header {
     left: 0;
     width: 100%;
     display: flex;
-    background-color: hsla(0, 0%, 96%, 0.945);
+    background-color: hsla(0, 0%, 96%, 0.979);
     padding: 0.8rem;
     justify-content: center;
 }
